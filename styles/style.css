@@ -46,15 +46,109 @@ nav a{
 }
 /* cover slide*/
 .header{
-    background: #FFF8F3;;
+    background: #FFF8F3 url("../images/header_bg.png") no-repeat bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 0 0 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
+}
+.banner-content{
+    max-width: 500px;
+
 }
 .cover-image{
-    width: 540px;
-    height: 626px;
+    width: 760px;
+    height: 640px;
     flex-shrink: 0;
+
+}
+
+
+
+
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    border: 0;
+    margin: 130px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+.description,.title{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.section-description{
+    padding: 30px 170px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.skill-container{
+    display: flex;
+    padding: 20px 180px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.skills{
+    width: 279px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFFF;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 30px;
+}
+.skills-image{
+    padding: 30px;
+}
+.skill-description{
+    padding: 33px;
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
