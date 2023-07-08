@@ -152,3 +152,87 @@ nav a{
     font-weight: 400;
     line-height: 28px;
 }
+.experience-container{
+        margin-top: 200px;
+    margin-bottom: 150px;
+}
+.experience{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.ex-title{
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ex-name{
+    color:  #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.ex-ins{
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.ex-body{
+    height:250px;
+}
+.ex-header{
+    width: 650px;
+
+}
+.ex-description{
+    color:  #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.cv-btn{
+    text-align: center;
+}
+
+
+/* Footer content*/
+.footer{
+    background: #FFF8F3;
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+
+}
+.footer-content{
+    width: 550px;
+    margin-top: 100px;
+}
+.content-item img{
+    margin: 15px;
+}
+.input-box {
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+}
+
+.textarea{
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
+    border: 0;
+}
+.form{
+    padding: 10px 0;
+}
