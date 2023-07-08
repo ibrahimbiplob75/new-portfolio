@@ -44,3 +44,17 @@ nav a{
     padding: 15px 35px;
     flex-shrink: 0;
 }
+/* cover slide*/
+.header{
+    background: #FFF8F3;;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.cover-image{
+    width: 540px;
+    height: 626px;
+    flex-shrink: 0;
+}
